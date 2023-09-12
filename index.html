@@ -1,0 +1,39 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <main>
+            <section class="contenedor" id="miSeccion">
+                <div class="tarjeta">
+                    <img src="./img/piedra.png" alt="imagen_piedra" id="rock_img">
+                </div>
+                <div class="tarjeta">
+                    <img src="./img/papel.png" alt="imagen_papel" id="paper_img">
+                </div>
+                <div class="tarjeta">
+                    <img src="./img/tijera.png" alt="imagen_tijera" id="scissors_img">
+                </div>
+            </section>
+            <section class="contenedor-post" id="miSeccion-post" style="display: none;">
+                <div id="say_winner"></div>
+                <div class="tarjeta-main">
+                    <div id="tarjeta-user">
+                        <img src="" alt="" id="user_select">
+                    </div>
+                    <div id="tarjeta-pc">
+                        <img src="./img/papel.png" alt="" id="pc_select">
+                    </div>
+                </div>
+                <button style="display: none;" id="button_play_again">
+                    Volver a Jugar
+                </button>
+            </section>       
+        </main>
+        <script src="./main.js"></script>
+    </body>
+    </html>
